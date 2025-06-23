@@ -167,7 +167,7 @@ The solution implements an intelligent pagination approach:
 
 ```properties
 server.port=8080
-springdoc.api-docs.path=/api-docs
+springdoc.api-docs.path=/v3/api-docs
 springdoc.swagger-ui.path=/swagger-ui.html
 logging.level.domus.challenge=INFO
 ```
@@ -178,6 +178,11 @@ logging.level.domus.challenge=INFO
 - Complete API documentation with examples
 - Request/response schemas
 - Error response documentation
+
+## Example Documentation Links
+
+- **Swagger UI**: `http://localhost:8080/swagger-ui.html`
+- **API Docs**: `http://localhost:8080/v3/api-docs`
 
 ## Future Enhancements
 
@@ -223,7 +228,7 @@ mvn spring-boot:run
 
 - **API**: `http://localhost:8080/api/directors?threshold=4`
 - **Swagger UI**: `http://localhost:8080/swagger-ui.html`
-- **API Docs**: `http://localhost:8080/api-docs`
+- **API Docs**: `http://localhost:8080/v3/api-docs`
 
 ### 4. Testing
 
